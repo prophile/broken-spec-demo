@@ -1,4 +1,1 @@
-from flask import Flask
-
-app = Flask('broken_spec.example')
-
+__import__('pkg_resources').declare_namespace(__name__)
